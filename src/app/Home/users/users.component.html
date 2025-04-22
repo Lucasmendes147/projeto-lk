@@ -1,0 +1,7 @@
+<ul class="list-button">
+    <li class="mb-2" *ngFor="let item of competencias">
+        <button [routerLink]="'/competencias/' + competencias" class = "btn btn-primary">
+        {{item}}
+        </button>
+    </li>
+</ul>
